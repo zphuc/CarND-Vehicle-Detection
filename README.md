@@ -137,8 +137,8 @@ Here are the results through pipeline for all images in `test_images`(threshold 
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (somewhat wobbly or unstable bounding boxes are ok as long as you are identifying the vehicles most of the time with minimal false positives.)
 
-Here's a link to my video results:  
-    * [project_video_output_10sumX5](./project_video_output_10sumX5)
+Here's a link to my video results:
+  * [project_video_output_10sumX5](./project_video_output_10sumX5)
 
 
 #### 2. Describe how (and identify where in your code) you implemented some kind of filter for false positives and some method for combining overlapping bounding boxes.
@@ -159,13 +159,13 @@ Here's an example result showing the heatmap from a series of frames of video, t
 ![alt text][image5_T10]
 
 #### Here are the `test_video` results that show how it does change by the integration number `maxlen`. Noted that, `maxlen`=0 is the result without any integration of previous frames, and is found to be unstable.
-  * maxlen:  1 ([test_video_output_10sumX4.mp4](./test_video_output_10sumX4.mp4))
-  * maxlen: 10 ([test_video_output_1sumX4.mp4](./test_video_output_1sumX4.mp4))
+  * maxlen:  1 ([test_video_output_1sumX4.mp4](./test_video_output_1sumX4.mp4))
+  * maxlen: 10 ([test_video_output_10sumX4.mp4](./test_video_output_10sumX4.mp4))
 
 #### Here are the `project_video` results that show how it does change by threshold values:
-    * Threshold: 4 ([project_video_output_10sumX4](./project_video_output_10sumX4))
-    * Threshold: 5 ([project_video_output_10sumX5](./project_video_output_10sumX5))
-    * Threshold: 6 ([project_video_output_10sumX6](./project_video_output_10sumX6))
+  * Threshold: 4 ([project_video_output_10sumX4](./project_video_output_10sumX4))
+  * Threshold: 5 ([project_video_output_10sumX5](./project_video_output_10sumX5))
+  * Threshold: 6 ([project_video_output_10sumX6](./project_video_output_10sumX6))
 ---
 
 ### Discussion
